@@ -16,5 +16,5 @@ while fp_flag is 'false':
         fp_flag = 'true' #flag is true if user entered correct file path
     except AssertionError as e:
         print('You have entered the following file path: ' + str(
-        fp) + '.'+ ' This file either does not exist or have a wrong extension.' + '\n Please try again with correct file path and file extension ".fasta"')
+        fp) + '.'+ ' This file either does not exist.' + '\n Please try again with correct file path')
         fp_flag = 'false' #fp_flag is false if file path is incorrect
