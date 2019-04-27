@@ -18,3 +18,5 @@ while fp_flag is 'false':
         print('You have entered the following file path: ' + str(
         fp) + '.'+ ' This file either does not exist.' + '\n Please try again with correct file path')
         fp_flag = 'false' #fp_flag is false if file path is incorrect
+
+     #Subtask 1: parse input file
