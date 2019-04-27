@@ -1,6 +1,6 @@
 import os
 
-"""A welcome message that briefly explains the aim of the script"""
+#A welcome message that briefly explains the aim of the script
 print('Welcome to the "Determining the rate of evolution of protein-coding sequences" script.' + '\n The purpose of the program is to determine the rate of evolution of protein coding sequences by calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.\n')
 
 
