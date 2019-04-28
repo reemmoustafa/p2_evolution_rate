@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="subtask 1 : parse input file and subtask 2: complete CDS validation">
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+    <list default="true" id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+            <state relative-caret-position="236">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#100#362#0" />
@@ -198,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_tests.py" />
+      <option name="SCRIPT_NAME" value="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate\links and code trials.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +306,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556474067491</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="subtask 1 : parse input file and subtask 2: complete CDS validation&#10;and subtask 3: Convert the coding sequences to protein sequences by translation">
+      <created>1556490305234</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556490305235</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +343,8 @@
     <MESSAGE value="ask for input file from user and path validation" />
     <MESSAGE value="ask for input file from user and path validation along with file extension" />
     <MESSAGE value="subtask 1 : parse input file and subtask 2: complete CDS validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtask 1 : parse input file and subtask 2: complete CDS validation" />
+    <MESSAGE value="subtask 1 : parse input file and subtask 2: complete CDS validation&#10;and subtask 3: Convert the coding sequences to protein sequences by translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="subtask 1 : parse input file and subtask 2: complete CDS validation&#10;and subtask 3: Convert the coding sequences to protein sequences by translation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py">
@@ -408,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        <state relative-caret-position="236">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#100#362#0" />
