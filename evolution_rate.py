@@ -30,19 +30,24 @@ while fp_flag is 'false':
 # Sub-task 1: parse input file
 #codon_table = CodonTable.ambiguous_dna_by_id[1]
 with open(fp) as file:  #with as method for proper handling of large files
-    # 'rU' The argument 'rU' means open for reading using universal readline mode
     # regardless of the Operating system styling
-    # file is a parameter that will be used as a handle
+    # file: a parameter that will be used as a handle
+#subtask 1 + 2: continue with file parsing + validation of coding sequences only
+    print("Validating the input file for the presence of complete coding sequences only")
     for record in SeqIO.parse(file, "fasta"): #for loop to parse the input file
-        # , record is a seqrecord object
-        gene_seq = record.seq #gene_seq is a seq object
-        print("Validating the input file for the presence of complete coding sequences only")
+        # record: variable of type SeqRecord object
+        gene_seq = record.seq #gene_seq: is a variable of type seq object
         try:
             gene_seq.translate(cds=True)
-            print("File contains complete CDS only. File is accepted")
+        #parameter cds - Boolean, indicates this is a complete CDS.
+        # If True, this checks the sequence starts with a valid alternative start
+        # codon (which will be translated as methionine, M), that the sequence
+        # length is a multiple of three, and that there is a single in frame stop
+        # codon at the end. If these tests fail, an exception is raised.
         except Exception as cds_error:
             print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)+'\n\t'
-                  +str(gene_seq))
-            print('\tUnfortunately, The Program will terminate now.')
-            break
+                  +str(gene_seq)) #print of sequence id + exact error + coding sequence
+            print('\tUnfortunately, The Program will terminate now.') #exit message for the user
+            exit()#program will crash and exit as required
+    print("File contains complete CDS only. File is accepted")
 
