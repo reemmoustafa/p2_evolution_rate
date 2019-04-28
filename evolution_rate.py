@@ -1,5 +1,11 @@
 import os
 from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+def make_prot_rec(nuc_rec):
+    """function that returns a new SeqRecord with the translated sequence (default table)."""
+    return SeqRecord(seq = nuc_rec.seq.translate(cds=True),
+                     id = "trans_" + nuc_rec.id,
+                     description = "translation of CDS, using default table")
 # A welcome message that briefly explains the aim of the script
 print(
     'Welcome to the "Determining the rate of evolution of protein-coding sequences" script.' + '\nThe purpose of the program is to determine the rate of evolution of protein coding sequences\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
@@ -12,6 +18,7 @@ fp_flag = 'false'  # fp_flag variable used for file path validation
 while fp_flag is 'false':
     # ask for file path as an input parameter from user
     fp = input("Please enter the full path of your FASTA file that contains CDS sequences:  ")
+    fn = os.path.basename(fp)  # parameter that extracts file name from file path
     # validate the existence of the file path with success message or failure message
     try:
         assert os.path.exists(fp)
@@ -50,4 +57,11 @@ with open(fp) as file:  #with as method for proper handling of large files
             print('\tUnfortunately, The Program will terminate now.') #exit message for the user
             exit()#program will crash and exit as required
     print("File contains complete CDS only. File is accepted")
+#subtask 3: Convert the coding sequences to protein sequences by translation
+with open(fp) as file:
+    fn_p = "proteinSeq_" + fn #fn_p: variable of the protein file name (translation step output)
+    #translate neucleotide seqrecords to protein seqrecords and store it in an output file
+    proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
+    SeqIO.write(proteins, fn_p, "fasta")
+
 

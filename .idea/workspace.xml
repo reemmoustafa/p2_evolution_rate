@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="">
+    <list default="true" id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="subtask 1 : parse input file and subtask 2: complete CDS validation">
+      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +27,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="248">
+              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#100#362#0" />
+                <element signature="e#2264#3189#0" />
+                <element signature="e#2444#2503#0" />
+                <element signature="e#2871#3189#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/SeqIO/FastaIO.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="340" selection-start-line="340" selection-end-line="340" />
             </state>
           </provider>
         </entry>
@@ -37,8 +52,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/some_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state>
+              <caret column="73" selection-start-column="73" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="35" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.FASTA">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="77" />
+            <state relative-caret-position="1025">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,6 +102,7 @@
     <findStrings>
       <find>ens</find>
       <find>tan</find>
+      <find>ENS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,13 +115,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/test.TXT" />
-        <option value="$PROJECT_DIR$/some_tests.py" />
         <option value="$PROJECT_DIR$/test.FASTA" />
+        <option value="$PROJECT_DIR$/some_tests.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa" />
         <option value="$PROJECT_DIR$/evolution_rate.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -272,19 +302,26 @@
       <option name="project" value="LOCAL" />
       <updated>1556471366595</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="subtask 1 : parse input file and subtask 2: complete CDS validation">
+      <created>1556474067491</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556474067491</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,6 +343,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="subtask 1 : parse input file and subtask 2: complete CDS validation" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="2593" selection-start-line="2593" selection-end-line="2593" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2600">
@@ -321,33 +365,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/SeqIO/FastaIO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="2593" selection-start-line="2593" selection-end-line="2593" />
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/some_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example.fasta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.FASTA">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="77" />
+        <state relative-caret-position="1025">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="248">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#100#362#0" />
+            <element signature="e#2264#3189#0" />
+            <element signature="e#2444#2503#0" />
+            <element signature="e#2871#3189#0" />
           </folding>
         </state>
       </provider>
