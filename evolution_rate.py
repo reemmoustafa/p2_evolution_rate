@@ -1,6 +1,5 @@
 import os
 from Bio import SeqIO
-from Bio.Data import CodonTable
 # A welcome message that briefly explains the aim of the script
 print(
     'Welcome to the "Determining the rate of evolution of protein-coding sequences" script.' + '\nThe purpose of the program is to determine the rate of evolution of protein coding sequences\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
@@ -44,6 +43,6 @@ with open(fp) as file:  #with as method for proper handling of large files
         except Exception as cds_error:
             print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)+'\n\t'
                   +str(gene_seq))
-            print('\tUnfortunately, The Program will terminate')
+            print('\tUnfortunately, The Program will terminate now.')
             break
 
