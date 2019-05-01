@@ -68,7 +68,7 @@ with open(fpath) as file:
     SeqIO.write(proteins, fname_prot, "fasta")
 #subtask 4: Align the protein sequences using MUSCLE program
 #fn_p_muscle = "Alg_"+fname_prot
-muscle_exe = r"E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate\muscle3.8.31_i86win32.exe"
+muscle_exe = "muscle3.8.31_i86win32.exe"
 #muscle_exe: variable containing the path of muscle program
 fname_prot_musc_in = fname_prot #variable: input file for muscle
 fname_prot_musc_out = "Alg_" + fname_prot_musc_in #variable: output file from muscle
