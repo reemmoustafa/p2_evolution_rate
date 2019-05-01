@@ -1,6 +1,9 @@
 import os
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
+from Bio.Align.Applications import MuscleCommandline
+#from io import StringIO
+#from Bio import AlignIO
 def make_prot_rec(nuc_rec):
     """function that returns a new SeqRecord with the translated sequence (default table)."""
     return SeqRecord(seq = nuc_rec.seq.translate(cds=True),
@@ -14,29 +17,29 @@ print('*' * 100)
 # path and file extension(this subtask
 # wasn't in the project plan but it will make the program more interactive)
 #############################################################################
-fp_flag = 'false'  # fp_flag variable used for file path validation
-while fp_flag is 'false':
+fpath_flag = 'false'  # fpath_flag variable used for file path validation
+while fpath_flag is 'false':
     # ask for file path as an input parameter from user
-    fp = input("Please enter the full path of your FASTA file that contains CDS sequences:  ")
-    fn = os.path.basename(fp)  # parameter that extracts file name from file path
+    fpath = input("Please enter the full path of your FASTA file that contains CDS sequences:  ")
+    fname = os.path.basename(fpath)  # parameter that extracts file name from file path
     # validate the existence of the file path with success message or failure message
     try:
-        assert os.path.exists(fp)
-        print('File ' + str(fp) + ' was found. ')
-        if fp.endswith('.fasta') or fp.endswith('.FASTA')or fp.endswith('.fa')or fp.endswith('.FA'):
+        assert os.path.exists(fpath)
+        print('File ' + str(fpath) + ' was found. ')
+        if fpath.endswith('.fasta') or fpath.endswith('.FASTA')or fpath.endswith('.fa')or fpath.endswith('.FA'):
             print('File extension is correct')
-            fp_flag = 'true'  # flag is true if user entered correct file path
+            fpath_flag = 'true'  # flag is true if user entered correct file path
         else:
             print('File extension is incorrect, Please try again with a correct file extension')
-            fp_flag = 'false'
+            fpath_flag = 'false'
     except AssertionError as e:
         print('You have entered the following file path: ' + str(
-            fp) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
-        fp_flag = 'false'  # fp_flag is false if file path is incorrect
+            fpath) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
+        fpath_flag = 'false'  # fpath_flag is false if file path is incorrect
 
 # Sub-task 1: parse input file
 #codon_table = CodonTable.ambiguous_dna_by_id[1]
-with open(fp) as file:  #with as method for proper handling of large files
+with open(fpath) as file:  #with as method for proper handling of large files
     # regardless of the Operating system styling
     # file: a parameter that will be used as a handle
 #subtask 1 + 2: continue with file parsing + validation of coding sequences only
@@ -58,10 +61,21 @@ with open(fp) as file:  #with as method for proper handling of large files
             exit()#program will crash and exit as required
     print("File contains complete CDS only. File is accepted")
 #subtask 3: Convert the coding sequences to protein sequences by translation
-with open(fp) as file:
-    fn_p = "proteinSeq_" + fn #fn_p: variable of the protein file name (translation step output)
+with open(fpath) as file:
+    fname_prot = "protSeq_" + fname #fname_prot: variable of the protein file name (translation step output)
     #translate neucleotide seqrecords to protein seqrecords and store it in an output file
     proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
-    SeqIO.write(proteins, fn_p, "fasta")
-
+    SeqIO.write(proteins, fname_prot, "fasta")
+#subtask 4: Align the protein sequences using MUSCLE program
+#fn_p_muscle = "Alg_"+fname_prot
+muscle_exe = r"E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate\muscle3.8.31_i86win32.exe"
+#muscle_exe: variable containing the path of muscle program
+fname_prot_musc_in = fname_prot #variable: input file for muscle
+fname_prot_musc_out = "Alg_" + fname_prot_musc_in #variable: output file from muscle
+muscle_cline = MuscleCommandline(muscle_exe, input=fname_prot_musc_in , out = fname_prot_musc_out)
+# variable for muscle commandline
+print(muscle_cline) #print statement of the commandline variable
+stdout, stderr = muscle_cline() #stdout, stderr runs muscle command variable
+#align = AlignIO.read(StringIO(stdout), "fasta")
+#print(align)
 

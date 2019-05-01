@@ -15,7 +15,7 @@ print('*' * 100)
 # path and file extension(this subtask
 # wasn't in the project plan but it will make the program more interactive)
 #############################################################################
-fp_flag = 'false'  # fp_flag variable used for file path validation
+fp_flag = 'false'  # fpath_flag variable used for file path validation
 while fp_flag is 'false':
     # ask for file path as an input parameter from user
     fp = input("Please enter the full path of your FASTA file that contains CDS sequences:  ")
@@ -33,7 +33,7 @@ while fp_flag is 'false':
     except AssertionError as e:
         print('You have entered the following file path: ' + str(
             fp) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
-        fp_flag = 'false'  # fp_flag is false if file path is incorrect
+        fp_flag = 'false'  # fpath_flag is false if file path is incorrect
 
 # Sub-task 1: parse input file
 #codon_table = CodonTable.ambiguous_dna_by_id[1]
