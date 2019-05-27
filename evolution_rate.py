@@ -1,8 +1,12 @@
-# copy rights for: Reem Mostafa, Nehal Ghonim, Mina S. A. Saleh, Manar M. Rashad, Abeer Shalaby
-# Under supervision of: Dr. Rosina
-# This algorithm is part of CIT-656:Programming for Bioinformatics Course (WINTER 2019)
-# Bioinformatics Diploma, Nile University, Cairo, Egypt
 
+""""
+* The development repository for this tool is here:
+      https://github.com/reemmoustafa/p2_evolution_rate.git
+* copy rights for: Reem Mostafa, Nehal Ghonim, Mina S. A. Saleh, Manar M. Rashad, Abeer Shalaby
+* Under supervision of: Dr. Rosina
+* This algorithm is part of CIT-656:Programming for Bioinformatics Course (WINTER 2019)
+* Bioinformatics Diploma, Nile University, Cairo, Egypt
+"""
 
 import os
 from Bio import SeqIO
@@ -26,9 +30,9 @@ print(
       '\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
 print('*' * 100)
 
-# subtask 0: ask user for input fasta file + file validation for the entered
-# path and file extension(this subtask
-# wasn't in the project plan but it will make the program more interactive)
+# subtask 0: ask user for input fasta file
+# file validation for the entered path and file extension
+# this subtask wasn't in the project plan but it will make the program more interactive
 #############################################################################
 
 fpath_flag = 'false'  # fpath_flag variable used for file path validation
@@ -64,22 +68,26 @@ with open(fpath) as file:  # with as method for proper handling of large files
         try:
             gene_seq.translate(cds=True)
         # parameter cds - Boolean, indicates this is a complete CDS.
-        # If True, this checks the sequence starts with a valid alternative start
-        # codon (which will be translated as methionine, M), that the sequence
-        # length is a multiple of three, and that there is a single in frame stop
-        # codon at the end. If these tests fail, an exception is raised.
+        # If True, this checks the sequence starts with a valid alternative start codon
+        # (which will be translated as methionine, M),
+        # that the sequence length is a multiple of three, and that there is a single in frame stop codon at the end.
+        # If these tests fail, an exception is raised.
         except Exception as cds_error:
             print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)+'\n\t'
                   + str(gene_seq))  # print of sequence id + exact error + coding sequence
             print('\tUnfortunately, The Program will terminate now.')  # exit message for the user
             exit()  # program will crash and exit as required
     print("File contains complete CDS only. File is accepted")
+
+
 # subtask 3: Convert the coding sequences to protein sequences by translation
 with open(fpath) as file:
     fname_prot = "protSeq_" + fname  # fname_prot: variable of the protein file name (translation step output)
     # translate neucleotide seqrecords to protein seqrecords and store it in an output file
     proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
     SeqIO.write(proteins, fname_prot, "fasta")
+
+
 # subtask 4: Align the protein sequences using MUSCLE program
 # fn_p_muscle = "Alg_"+fname_prot
 muscle_exe = "muscle3.8.31_i86win32.exe"
