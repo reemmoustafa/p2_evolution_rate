@@ -24,10 +24,12 @@ print(
     + '\nThe purpose of the program is to determine the rate of evolution of protein coding sequences'
       '\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
 print('*' * 100)
+
 # subtask 0: ask user for input fasta file + file validation for the entered
 # path and file extension(this subtask
 # wasn't in the project plan but it will make the program more interactive)
 #############################################################################
+
 fpath_flag = 'false'  # fpath_flag variable used for file path validation
 while fpath_flag is 'false':
     # ask for file path as an input parameter from user
