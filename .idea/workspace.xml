@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/evolution_rate.py" line="79" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="">
+    <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,81 +13,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="p2_evolution_rate" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protSeq_Human_ADAMTS6_orthologues_2.fa">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23759" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27559" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68100">
-              <caret line="2724" column="54" selection-start-line="2724" selection-start-column="54" selection-end-line="2724" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/links and code trials.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-              <folding>
-                <element signature="e#75#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.FASTA">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -110,6 +48,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mina-saleh &lt;49322405+mina-saleh@users.noreply.github.com&gt;" />
+        <option value="mina-saleh" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -119,13 +64,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/test.TXT" />
+        <option value="$PROJECT_DIR$/test.FASTA" />
         <option value="$PROJECT_DIR$/some_tests.py" />
-        <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa" />
         <option value="$PROJECT_DIR$/links and code trials.py" />
         <option value="$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa" />
-        <option value="$PROJECT_DIR$/protSeq_Human_ADAMTS6_orthologues_2.fasta" />
-        <option value="$PROJECT_DIR$/test.FASTA" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$USER_HOME$/Desktop/evolution_rate1.py" />
         <option value="$PROJECT_DIR$/evolution_rate.py" />
       </list>
     </option>
@@ -138,10 +83,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,10 +98,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Biopython_project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Biopython_project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -185,6 +132,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evolution_rate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evolution_rate1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="p2_evolution_rate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/evolution_rate1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evolution_rate1" />
         <item itemvalue="Python.evolution_rate" />
         <item itemvalue="Python.links and code trials" />
         <item itemvalue="Python.some_tests" />
@@ -248,7 +217,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cfb61c7-656b-4cfd-9189-df59404ed607" name="Default Changelist" comment="" />
+      <changelist id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="" />
       <created>1556379498664</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -352,37 +321,66 @@
       <option name="project" value="LOCAL" />
       <updated>1556492652924</updated>
     </task>
-    <task id="LOCAL-00015" summary="updated test file with complete CDS for more species&#10;unoffical script for some code testing before addition to main script ..you can igonre this file :D">
-      <created>1556662723915</created>
+    <task id="LOCAL-00015" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1556795556419</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1556662723915</updated>
+      <updated>1556795556419</updated>
     </task>
-    <task id="LOCAL-00016" summary="I have developed the muscle part and now it is producing the output of the aligned proteins to a fasta file">
-      <created>1556738842578</created>
+    <task id="LOCAL-00016" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1556795767411</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1556738842579</updated>
+      <updated>1556795767411</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1556795929511</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556795929511</updated>
+    </task>
+    <task id="LOCAL-00018" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1556795950356</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556795950356</updated>
+    </task>
+    <task id="LOCAL-00019" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1558268962147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558268962147</updated>
+    </task>
+    <task id="LOCAL-00020" summary="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces">
+      <created>1558976821033</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558976821033</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25818452" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.31797236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" weight="0.33878887" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -391,6 +389,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding .idea to gitignore file" />
     <MESSAGE value="ask for input file from user and path validation" />
@@ -398,19 +409,15 @@
     <MESSAGE value="subtask 1 : parse input file and subtask 2: complete CDS validation" />
     <MESSAGE value="subtask 1 : parse input file and subtask 2: complete CDS validation&#10;and subtask 3: Convert the coding sequences to protein sequences by translation" />
     <MESSAGE value="unoffical script for some code testing before addition to main script ..you can igonre this file :D" />
-    <MESSAGE value="updated test file with complete CDS for more species&#10;unoffical script for some code testing before addition to main script ..you can igonre this file :D" />
-    <MESSAGE value="I have developed the muscle part and now it is producing the output of the aligned proteins to a fasta file" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have developed the muscle part and now it is producing the output of the aligned proteins to a fasta file" />
+    <MESSAGE value="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="2593" selection-start-line="2593" selection-end-line="2593" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
     <entry file="file://$PROJECT_DIR$/example.fasta" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/SeqIO/FastaIO.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -418,52 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/links and code trials.py" />
+    <entry file="file://$PROJECT_DIR$/test.FASTA" />
     <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68100">
-          <caret line="2724" column="54" selection-start-line="2724" selection-start-column="54" selection-end-line="2724" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/SeqIO/FastaIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8350">
-          <caret line="340" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/links and code trials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding>
-            <element signature="e#75#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -473,37 +438,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protSeq_Human_ADAMTS6_orthologues_2.fasta">
+    <entry file="file://$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa" />
+    <entry file="file://$USER_HOME$/Desktop/evolution_rate1.py" />
+    <entry file="file://$PROJECT_DIR$/code_backup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state relative-caret-position="-442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py" />
+    <entry file="file://$PROJECT_DIR$/../p2_evolution_rate2/evolution_rate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protSeq_Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27559" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.FASTA">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="77" />
         </state>
       </provider>
     </entry>
