@@ -1,6 +1,7 @@
-# copy rights for: Reem Mostafa, Nihal, Mina S. A. Saleh, Manar M. Rashed, Abeer, Under supervision of: Dr. Rosina
-# This algorithm is part of Programing Course, Bioinformatics Diploma, Nile University, Cairo, Egypt
-#
+# copy rights for: Reem Mostafa, Nehal Ghonim, Mina S. A. Saleh, Manar M. Rashad, Abeer Shalaby
+# Under supervision of: Dr. Rosina
+# This algorithm is part of CIT-656:Programming for Bioinformatics Course (WINTER 2019)
+# Bioinformatics Diploma, Nile University, Cairo, Egypt
 
 
 import os
