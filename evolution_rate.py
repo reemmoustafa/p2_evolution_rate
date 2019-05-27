@@ -35,8 +35,8 @@ print('*' * 100)
 # this subtask wasn't in the project plan but it will make the program more interactive
 #############################################################################
 
-fpath_flag = 'false'  # fpath_flag variable used for file path validation
-while fpath_flag is 'false':
+fpath_flag = False  # fpath_flag variable used for file path validation
+while fpath_flag is False:
     # ask for file path as an input parameter from user
     fpath = input("Please enter the full path of your FASTA file that contains CDS sequences:  ")
     fname = os.path.basename(fpath)  # parameter that extracts file name from file path
@@ -46,14 +46,14 @@ while fpath_flag is 'false':
         print('File ' + str(fpath) + ' was found. ')
         if fpath.endswith('.fasta') or fpath.endswith('.FASTA')or fpath.endswith('.fa')or fpath.endswith('.FA'):
             print('File extension is correct')
-            fpath_flag = 'true'  # flag is true if user entered correct file path
+            fpath_flag = True  # flag is true if user entered correct file path
         else:
             print('File extension is incorrect, Please try again with a correct file extension')
-            fpath_flag = 'false'
+            fpath_flag = False
     except AssertionError as e:
         print('You have entered the following file path: ' + str(
             fpath) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
-        fpath_flag = 'false'  # fpath_flag is false if file path is incorrect
+        fpath_flag = False  # fpath_flag is false if file path is incorrect
 
 # Sub-task 1: parse input file
 # codon_table = CodonTable.ambiguous_dna_by_id[1]

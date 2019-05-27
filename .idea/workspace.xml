@@ -19,10 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#399#408#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -375,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558978242086</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="adding Copy Rights">
+      <created>1558978855219</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1558978855219</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding Copy Rights &amp; Spacing">
+      <created>1558983852857</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1558983852881</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,7 +437,9 @@
     <MESSAGE value="unoffical script for some code testing before addition to main script ..you can igonre this file :D" />
     <MESSAGE value="unoffical script for some code testing before addition to main script ..you can igonre this file :D&#10;adding spaces" />
     <MESSAGE value=" :D&#10;adding spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value=" :D&#10;adding spaces" />
+    <MESSAGE value="adding Copy Rights" />
+    <MESSAGE value="adding Copy Rights &amp; Spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Copy Rights &amp; Spacing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
@@ -477,10 +493,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#399#408#0" expanded="true" />
           </folding>
         </state>
       </provider>
