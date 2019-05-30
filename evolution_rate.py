@@ -1,5 +1,6 @@
 
 """"
+*
 * The development repository for this tool is here:
       https://github.com/reemmoustafa/p2_evolution_rate.git
 * copy rights for: Reem Mostafa, Nehal Ghonim, Mina S. A. Saleh, Manar M. Rashad, Abeer Shalaby
@@ -19,7 +20,7 @@ from Bio.Align.Applications import MuscleCommandline
 def make_prot_rec(nuc_rec):
     """function that returns a new SeqRecord with the translated sequence (default table)."""
     return SeqRecord(seq=nuc_rec.seq.translate(cds=True),
-                     id= nuc_rec.id, description = ""
+                     id=nuc_rec.id, description=""
                      )
 
 
