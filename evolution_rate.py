@@ -26,8 +26,8 @@ def make_prot_rec(nuc_rec):
 
 # A welcome message that briefly explains the aim of the script
 print(
-    'Welcome to the "Determining the rate of evolution of protein-coding sequences" script.'
-    + '\nThe purpose of the program is to determine the rate of evolution of protein coding sequences'
+    'Welcome to the "Determining the rate of evolution of alg_protein-coding sequences" script.'
+    + '\nThe purpose of the program is to determine the rate of evolution of alg_protein coding sequences'
       '\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
 print('*' * 100)
 
@@ -81,15 +81,15 @@ with open(fpath) as file:  # with as method for proper handling of large files
     print("File contains complete CDS only. File is accepted")
 
 
-# subtask 3: Convert the coding sequences to protein sequences by translation
+# subtask 3: Convert the coding sequences to alg_protein sequences by translation
 with open(fpath) as file:
-    fname_prot = "protSeq_" + fname  # fname_prot: variable of the protein file name (translation step output)
-    # translate neucleotide seqrecords to protein seqrecords and store it in an output file
+    fname_prot = "protSeq_" + fname  # fname_prot: variable of the alg_protein file name (translation step output)
+    # translate neucleotide seqrecords to alg_protein seqrecords and store it in an output file
     proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
     SeqIO.write(proteins, fname_prot, "fasta")
 
 
-# subtask 4: Align the protein sequences using MUSCLE program
+# subtask 4: Align the alg_protein sequences using MUSCLE program
 # fn_p_muscle = "Alg_"+fname_prot
 muscle_exe = "muscle3.8.31_i86win32.exe"
 # muscle_exe: variable containing the path of muscle program

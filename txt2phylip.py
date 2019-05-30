@@ -1,7 +1,7 @@
 #https://www.biostars.org/p/327003/"""
 #from Bio import AlignIO
 #from Bio import SeqIO
-#alignments = AlignIO.parse("Alg_protSeq_Human_ADAMTS6_orthologues_2.fa", "fasta")
+#alignments = AlignIO.parse("x.fa", "fasta")
 #with open("example.faa", "w") as handle:
  #   count = SeqIO.write(alignments, handle, "fasta")
 from Bio import SeqIO

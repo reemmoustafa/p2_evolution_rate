@@ -65,13 +65,13 @@ ambiguous_codon_table['*'] = ('TAR', 'TGA')
 
 
 def backtranslate_permutations(protein, codon_table=codon_table):
-    """Returns the number of back-translated nucleotide sequences for a protein
+    """Returns the number of back-translated nucleotide sequences for a alg_protein
     and codon table combination.
 
-    >>> protein = 'ACDEFGHIKLMNPQRSTVWY*'
-    >>> backtranslate_permutations(protein)
+    >>> alg_protein = 'ACDEFGHIKLMNPQRSTVWY*'
+    >>> backtranslate_permutations(alg_protein)
     1019215872
-    >>> backtranslate_permutations(protein, codon_table=ambiguous_codon_table)
+    >>> backtranslate_permutations(alg_protein, codon_table=ambiguous_codon_table)
     16
     """
     permutations = 1
@@ -81,11 +81,11 @@ def backtranslate_permutations(protein, codon_table=codon_table):
 
 
 def backtranslate(protein, codon_table=codon_table):
-    """Returns the back-translated nucleotide sequences for a protein and codon
+    """Returns the back-translated nucleotide sequences for a alg_protein and codon
     table combination.
 
-    >>> protein = 'FVC'
-    >>> len(backtranslate(protein))
+    >>> alg_protein = 'FVC'
+    >>> len(backtranslate(alg_protein))
     16
     """
     # create initial sequences == list of codons for the first amino acid

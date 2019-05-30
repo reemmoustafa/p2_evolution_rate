@@ -1,5 +1,5 @@
 
-# Python program to convert altered DNA to protein
+# Python program to convert altered DNA to alg_protein
 
 inputfile = "DNA_sequence_original.txt"
 f = open(inputfile, "r")
