@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,47 +20,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/align_back_trans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/README.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evolution_rate - Copy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trans Prot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="1525">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trans.py">
+        <entry file="file://$PROJECT_DIR$/txt2phylip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="109" selection-start-line="11" selection-start-column="109" selection-end-line="11" selection-end-column="109" />
+              <folding>
+                <element signature="e#266#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example.phy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32400">
+              <caret line="1296" selection-start-line="1296" selection-end-line="1296" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_backup.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -77,12 +85,6 @@
       <find>tan</find>
       <find>ENS</find>
       <find>ENSTTRP00000006168</find>
-      <find>false</find>
-      <find>true</find>
-      <find>if fp</find>
-      <find>if fpath</find>
-      <find>fals</find>
-      <find>tabl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,7 +94,7 @@
         <option value="mina-saleh" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,12 +111,9 @@
         <option value="$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa" />
         <option value="$PROJECT_DIR$/functions.py" />
         <option value="$USER_HOME$/Desktop/evolution_rate1.py" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa11544.28675/Reverse-Translator-master/Code.py" />
+        <option value="$PROJECT_DIR$/code_backup.txt" />
         <option value="$PROJECT_DIR$/evolution_rate.py" />
-        <option value="$PROJECT_DIR$/venv/trans.py" />
-        <option value="$PROJECT_DIR$/trans.py" />
-        <option value="$PROJECT_DIR$/evolution_rate - Copy.py" />
-        <option value="$PROJECT_DIR$/trans Prot.py" />
+        <option value="$PROJECT_DIR$/txt2phylip.py" />
       </list>
     </option>
   </component>
@@ -149,11 +148,6 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Biopython_project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mina Saleh\PycharmProjects\p2_evolution_rate" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -166,8 +160,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest backtranslate_permutations">
-    <configuration name="Code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.txt2phylip">
+    <configuration name="evolution_rate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="p2_evolution_rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,11 +169,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp/Rar$DRa11544.28675/Reverse-Translator-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evolution_rate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evolution_rate1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="p2_evolution_rate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/Rar$DRa11544.28675/Reverse-Translator-master/Code.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/evolution_rate1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evolution_rate - Copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="links and code trials" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="p2_evolution_rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evolution_rate - Copy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/links and code trials.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,67 +224,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest backtranslate" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="some_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="p2_evolution_rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trans Prot.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="backtranslate" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate\links and code trials.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest backtranslate_permutations" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="txt2phylip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="p2_evolution_rate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trans Prot.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="backtranslate_permutations" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in trans Prot" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="p2_evolution_rate" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trans Prot.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt2phylip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctest backtranslate_permutations" />
-        <item itemvalue="Python tests.Doctests in trans Prot" />
-        <item itemvalue="Python tests.Doctest backtranslate" />
-        <item itemvalue="Python.evolution_rate - Copy" />
-        <item itemvalue="Python.Code" />
+        <item itemvalue="Python.txt2phylip" />
+        <item itemvalue="Python.evolution_rate" />
+        <item itemvalue="Python.evolution_rate1" />
+        <item itemvalue="Python.links and code trials" />
+        <item itemvalue="Python.some_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -452,90 +455,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558983852881</updated>
     </task>
-    <task id="LOCAL-00025" summary="change 'false ' to False">
-      <created>1558984283840</created>
+    <task id="LOCAL-00025" summary="modifying the ids nomenclauture produced for proteins and alignments">
+      <created>1559175794234</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1558984283840</updated>
+      <updated>1559175794235</updated>
     </task>
-    <task id="LOCAL-00026" summary="spacing">
-      <created>1559221821135</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1559221821135</updated>
-    </task>
-    <task id="LOCAL-00027" summary="please chick the trans prot function">
-      <created>1559227319383</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1559227319383</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="26" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 17m 58s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 22m 37s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 24m 18s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 25m 07s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 26m 13s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 26m 31s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_backtranslate - 2019.05.30 at 16h 27m 27s.xml">
-      <configuration name="Doctest backtranslate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_backtranslate - 2019.05.30 at 16h 27m 33s.xml">
-      <configuration name="Doctest backtranslate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_trans_Prot - 2019.05.30 at 16h 28m 16s.xml">
-      <configuration name="Doctests in trans Prot" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_backtranslate_permutations - 2019.05.30 at 16h 32m 25s.xml">
-      <configuration name="Doctest backtranslate_permutations" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.24404761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.32569557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32733223" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" weight="0.33878887" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3502455" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.24404761" />
-      <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,7 +485,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -573,10 +511,8 @@
     <MESSAGE value=" :D&#10;adding spaces" />
     <MESSAGE value="adding Copy Rights" />
     <MESSAGE value="adding Copy Rights &amp; Spacing" />
-    <MESSAGE value="change 'false ' to False" />
-    <MESSAGE value="spacing" />
-    <MESSAGE value="please chick the trans prot function" />
-    <option name="LAST_COMMIT_MESSAGE" value="please chick the trans prot function" />
+    <MESSAGE value="modifying the ids nomenclauture produced for proteins and alignments" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying the ids nomenclauture produced for proteins and alignments" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
@@ -592,9 +528,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/links and code trials.py" />
     <entry file="file://$PROJECT_DIR$/test.FASTA" />
-    <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -605,19 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proteinSeq_Human_ADAMTS6_orthologues_2.fa" />
     <entry file="file://$USER_HOME$/Desktop/evolution_rate1.py" />
-    <entry file="file://$PROJECT_DIR$/code_backup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions.py" />
-    <entry file="file://$PROJECT_DIR$/../p2_evolution_rate2/evolution_rate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2_evolution_rate2/evolution_rate.py" />
     <entry file="file://$PROJECT_DIR$/protSeq_Human_ADAMTS6_orthologues_2.fa">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -625,72 +547,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+    <entry file="file://$PROJECT_DIR$/example.faa" />
+    <entry file="file://$PROJECT_DIR$/python">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa8368.46289/Reverse-Translator-master/README.md" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa8084.48310/pico_galaxy-master/tools/align_back_trans/align_back_trans.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa8084.46425/pico_galaxy-master/tools/align_back_trans/README.rst" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa8368.44096/Reverse-Translator-master/Code.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/.shed.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa11544.28675/Reverse-Translator-master/Code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/tool_dependencies.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/align_back_trans/tool_dependencies.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/align_back_trans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/README.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evolution_rate - Copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trans Prot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/align_back_trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        <state relative-caret-position="1525">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trans.py">
+    <entry file="file://$PROJECT_DIR$/example.phy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32400">
+          <caret line="1296" selection-start-line="1296" selection-end-line="1296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_backup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2phylip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="109" selection-start-line="11" selection-start-column="109" selection-end-line="11" selection-end-column="109" />
+          <folding>
+            <element signature="e#266#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
