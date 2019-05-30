@@ -19,8 +19,8 @@ from Bio.Align.Applications import MuscleCommandline
 def make_prot_rec(nuc_rec):
     """function that returns a new SeqRecord with the translated sequence (default table)."""
     return SeqRecord(seq=nuc_rec.seq.translate(cds=True),
-                     id="trans_" + nuc_rec.id,
-                     description="translation of CDS, using default table")
+                     id= nuc_rec.id, description = ""
+                     )
 
 
 # A welcome message that briefly explains the aim of the script
