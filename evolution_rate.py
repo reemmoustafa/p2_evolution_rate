@@ -77,7 +77,6 @@ with open(fpath) as file:
     print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only."
           "\nFile is accepted and translated to proteins")
 
-
 # subtask 4: Align the alg_protein sequences using MUSCLE program
 
 muscle_exe = input("Please enter the full path of muscle program:  ")
@@ -99,7 +98,7 @@ with open(fname_prot_musc_out) as algd_p_file:  # opening the aligned protein fi
         unalg_nuc_seqs = list(SeqIO.parse(file, "fasta"))  # unalg_nuc_seqs vriable
         # list of seqrecords of unaligned neuclotide sequences
         p_alignment = AlignIO.read(algd_p_file, "fasta")  # variable for the aligned
-        # protein seuqnces
+        # protein sequences
 
         for unalg_nuc in range(len(unalg_nuc_seqs)):
             # for loop on the unalg_nuc_seqs, this for loop will be work in range
