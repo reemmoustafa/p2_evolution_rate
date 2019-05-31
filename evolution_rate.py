@@ -120,9 +120,8 @@ with open(fpath) as file:
         proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
         SeqIO.write(proteins, fname_prot, "fasta")
     except Exception as cds_error:
-
-        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)
-              + '\n\t' + str(gene_seq))  # print of sequence id + exact error + coding sequence
+        print('Error in Sequence id ' + str(record.id) + ':\n\t' + str(cds_error) + '\n\t'
+              + str(gene_seq))  # print of sequence id + exact error + coding sequence
         print('\tUnfortunately, The Program will terminate now.')  # exit message for the user
         exit()  # program will crash and exit as required
     print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only."

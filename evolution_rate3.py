@@ -120,9 +120,8 @@ with open(fpath) as file:
         proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
         SeqIO.write(proteins, fname_prot, "fasta")
     except Exception as cds_error:
-
-        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)
-              + '\n\t' + str(gene_seq))  # print of sequence id + exact error + coding sequence
+        print('Error in Sequence id ' + str(record.id) + ':\n\t' + str(cds_error) + '\n\t'
+              + str(gene_seq))  # print of sequence id + exact error + coding sequence
         print('\tUnfortunately, The Program will terminate now.')  # exit message for the user
         exit()  # program will crash and exit as required
     print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only."
@@ -139,11 +138,9 @@ print(muscle_cline)  # print statement of the commandline variable
 stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 
 #subtask 5: converting protein back to dna (Protein back translation to DNA)
-#str_to_write = "" # string variable that will carry all converted nucleotide sequences
 
 fname_alg_nuc_seq = "Alg_NucSeq_" + fname  # variable for fasta file that
 # will contained aligned sequences
-
 prot_covert_dna = algprot_to_algdna(fname_prot_musc_out,fpath) #coverting protein
 #to dna through calling fuction prot_covert_dna and storing its output in
 # prot_covert_dna variable
