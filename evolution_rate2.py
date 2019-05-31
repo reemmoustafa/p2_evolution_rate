@@ -79,7 +79,8 @@ def algprot_to_algdna(mus_alg_p, unalg_nuc_origf):
 print(
     'Welcome to the "Determining the rate of evolution of alg_protein-coding sequences" script.'
     + '\nThe purpose of the program is to determine the rate of evolution of alg_protein coding sequences'
-      '\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
+      +'\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.\n'
+      +'Please note that to run this file you will need to provide fasta file, newick tree file, muscle\nand working directory for paml ')
 print('*' * 100)
 
 # subtask 0: ask user for input fasta file
@@ -175,11 +176,13 @@ while treepath_flag is False:
         print('You have entered the following file path: ' + str(
             cml.tree) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
         treepath_flag = False  # fpath_flag is false if file path is incorrect
-cml.out_file = "paml_"+ f_phylip[:-3]+".out"
+cml.out_file = "paml_"+ f_phylip[:-4]+".out"
 cml.working_dir = input("Please enter working directory of paml: ")
 cml.set_options(CodonFreq=2, model=0, seqtype=1, NSsites='0', runmode=0, cleandata=0)
 results = cml.run()
 ns_sites = results.get("NSsites")
 m0 = ns_sites.get(0)
 m0_params = m0.get("parameters")
-print(m0_params.get("omega"))
+print("for the file provided",f_phylip,":")
+print("omega (dN/dS) = "),(m0_params.get("omega"))
+print ("for more information please check ",cml.out_file)

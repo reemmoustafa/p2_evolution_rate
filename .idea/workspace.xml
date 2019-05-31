@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAML.py" beforeDir="false" afterPath="$PROJECT_DIR$/PAML.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate2.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate2.py" afterDir="false" />
     </list>
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="82" column="97" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+            <state relative-caret-position="177">
+              <caret line="186" column="50" lean-forward="true" selection-start-line="186" selection-start-column="50" selection-end-line="186" selection-end-column="50" />
               <folding>
                 <element signature="e#472#481#0" expanded="true" />
                 <element signature="e#579#800#0" />
@@ -74,23 +73,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paml/codeml.ctl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evolution_rate2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
+            <state relative-caret-position="252">
+              <caret line="187" column="33" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
               <folding>
                 <element signature="e#472#481#0" expanded="true" />
                 <element signature="e#685#906#0" />
-                <element signature="e#9304#10171#0" />
+                <element signature="e#963#4488#0" />
+                <element signature="e#9445#10312#0" />
               </folding>
             </state>
           </provider>
@@ -101,15 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-176">
               <caret line="147" selection-start-line="147" selection-end-line="147" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alg_NucSeq_project_2_input_SRSF1.phy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -180,8 +162,8 @@
         <option value="$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy" />
         <option value="$PROJECT_DIR$/project2_input_tree.newick" />
         <option value="$PROJECT_DIR$/evolution_rate3.py" />
-        <option value="$PROJECT_DIR$/evolution_rate2.py" />
         <option value="$PROJECT_DIR$/PAML.py" />
+        <option value="$PROJECT_DIR$/evolution_rate2.py" />
         <option value="$PROJECT_DIR$/evolution_rate.py" />
       </list>
     </option>
@@ -204,11 +186,6 @@
             <path>
               <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2_evolution_rate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2_evolution_rate" type="462c0819:PsiDirectoryNode" />
-              <item name="paml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
@@ -687,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559330517003</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update evolution_rate.py script with paml steps">
+      <created>1559334169068</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1559334169068</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -900,18 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evolution_rate2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
-          <folding>
-            <element signature="e#472#481#0" expanded="true" />
-            <element signature="e#685#906#0" />
-            <element signature="e#9304#10171#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Phylo/PAML/codeml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1001">
@@ -933,6 +905,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/paml_Alg_NucSeq_PY_project_2_input_SRSF1..out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="158" selection-start-line="158" selection-end-line="158" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PAML_results_final.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
@@ -951,10 +930,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/evolution_rate2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="187" column="33" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+          <folding>
+            <element signature="e#472#481#0" expanded="true" />
+            <element signature="e#685#906#0" />
+            <element signature="e#963#4488#0" />
+            <element signature="e#9445#10312#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="82" column="97" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        <state relative-caret-position="177">
+          <caret line="186" column="50" lean-forward="true" selection-start-line="186" selection-start-column="50" selection-end-line="186" selection-end-column="50" />
           <folding>
             <element signature="e#472#481#0" expanded="true" />
             <element signature="e#579#800#0" />
