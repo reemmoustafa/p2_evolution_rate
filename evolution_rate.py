@@ -60,8 +60,8 @@ while fpath_flag is False:
 with open(fpath) as file:
     # with as method for proper handling of large files regardless of the Operating system styling file:
     # a parameter that will be used as a handle
-    # subtask 2 + 3: validation of coding sequences only.
-    # then Convert the coding sequences to alg_protein sequences by translation
+    # subtask 2 + 3: A- validation of coding sequences only.
+    #                B- Convert the coding sequences to alg_protein sequences by translation
     try:
         unalg_nuc_seqs = SeqIO.parse(file, "fasta")
         fname_prot = "protSeq_" + fname  # fname_prot: variable of the alg_protein file name (translation step output)
