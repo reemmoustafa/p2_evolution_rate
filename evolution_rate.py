@@ -184,6 +184,6 @@ results = cml.run() #run cml program
 ns_sites = results.get("NSsites")
 m0 = ns_sites.get(0)
 m0_params = m0.get("parameters")
-print("for the provided file ",f_phylip, "omega (dN/dS) = ")
+print("For the provided file ",f_phylip, "omega (dN/dS) = ")
 print(m0_params.get("omega"))
-print("for more information please check ",cml.out_file)
+print("For more information please check ",cml.out_file)
