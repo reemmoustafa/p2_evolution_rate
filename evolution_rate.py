@@ -139,11 +139,9 @@ print(muscle_cline)  # print statement of the commandline variable
 stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 
 #subtask 5: converting protein back to dna (Protein back translation to DNA)
-#str_to_write = "" # string variable that will carry all converted nucleotide sequences
 
 fname_alg_nuc_seq = "Alg_NucSeq_" + fname  # variable for fasta file that
 # will contained aligned sequences
-
 prot_covert_dna = algprot_to_algdna(fname_prot_musc_out,fpath) #coverting protein
 #to dna through calling fuction prot_covert_dna and storing its output in
 # prot_covert_dna variable

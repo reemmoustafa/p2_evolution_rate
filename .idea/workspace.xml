@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evolution_rate3.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="279">
+              <caret line="144" column="55" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="55" />
               <folding>
                 <element signature="e#400#409#0" expanded="true" />
                 <element signature="e#579#800#0" />
@@ -45,11 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evolution_rate3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+            <state relative-caret-position="320">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
               <folding>
-                <element signature="e#400#409#0" expanded="true" />
-                <element signature="e#1587#4365#0" />
+                <element signature="e#472#481#0" expanded="true" />
+                <element signature="e#651#872#0" />
+                <element signature="e#4621#4831#0" />
+                <element signature="e#4851#4893#0" />
               </folding>
             </state>
           </provider>
@@ -591,19 +591,40 @@
       <option name="project" value="LOCAL" />
       <updated>1559312895061</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="subtask 6 is done : producing pyhip file using alignIO.convert">
+      <created>1559319620574</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1559319620574</updated>
+    </task>
+    <task id="LOCAL-00037" summary="code refined for step 5 through function usage">
+      <created>1559319716608</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1559319716608</updated>
+    </task>
+    <task id="LOCAL-00038" summary="code refined for step 5 through function usage v2">
+      <created>1559320052693</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1559320052693</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.15178572" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.28968903" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.28968903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,18 +691,9 @@
     <MESSAGE value="tree file uploade by dr rosina in newick format" />
     <MESSAGE value="produced phylip file" />
     <MESSAGE value="subtask 6 is done : producing pyhip file using alignIO.convert" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtask 6 is done : producing pyhip file using alignIO.convert" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/evolution_rate.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="code refined for step 5 through function usage" />
+    <MESSAGE value="code refined for step 5 through function usage v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refined for step 5 through function usage v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
@@ -793,17 +805,6 @@
     <entry file="file://$PROJECT_DIR$/Human_ADAMTS6_orthologues_2.fa">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/evolution_rate3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-          <folding>
-            <element signature="e#400#409#0" expanded="true" />
-            <element signature="e#1587#4365#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prot trial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -818,10 +819,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/evolution_rate3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#472#481#0" expanded="true" />
+            <element signature="e#651#872#0" />
+            <element signature="e#4621#4831#0" />
+            <element signature="e#4851#4893#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="279">
+          <caret line="144" column="55" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="55" />
           <folding>
             <element signature="e#400#409#0" expanded="true" />
             <element signature="e#579#800#0" />
