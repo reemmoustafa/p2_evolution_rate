@@ -152,7 +152,7 @@ f.close() # closing fasta file file
 
 # subtask 6 : convert fasta file to phylip file
 
-f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy' #variable to carry name of the phylip file
+f_phylip = "Alg_NucSeq_PHY_" +fname[:-3]+'.phy' #variable to carry name of the phylip file
 count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-sequential")#conversion
 # of fasta file into sequential-phylip file
 
