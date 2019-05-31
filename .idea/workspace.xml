@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evolution_rate_backup2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evolution_rate2.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evolution_rate3.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prot trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot trial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,26 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trans Prot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="1275">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -53,24 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evolution_rate2_backup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -125,6 +84,7 @@
         <option value="$PROJECT_DIR$/evolution_rate2.py" />
         <option value="$PROJECT_DIR$/code_backup.txt" />
         <option value="$PROJECT_DIR$/evolution_rate3.py" />
+        <option value="$PROJECT_DIR$/evolution_rate_backup2.py" />
         <option value="$PROJECT_DIR$/evolution_rate.py" />
       </list>
     </option>
@@ -148,6 +108,11 @@
               <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2_evolution_rate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2_evolution_rate" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution_rate_backup2.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,8 +127,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate" />
       <recent name="C:\Users\Mina Saleh\PycharmProjects\p2_evolution_rate" />
+      <recent name="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,19 +466,54 @@
       <option name="project" value="LOCAL" />
       <updated>1559270605184</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="adding spacing">
+      <created>1559314167924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1559314167924</updated>
+    </task>
+    <task id="LOCAL-00030" summary="adding spacing">
+      <created>1559316471352</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559316471352</updated>
+    </task>
+    <task id="LOCAL-00031" summary="adding spacing">
+      <created>1559317088440</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1559317088440</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding spacing">
+      <created>1559317315820</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559317315820</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adding spacing">
+      <created>1559317405844</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559317405844</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.24404761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.27306548" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.28968903" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.28968903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,7 +574,8 @@
     <MESSAGE value="adding files" />
     <MESSAGE value="prot trial using files" />
     <MESSAGE value="subtask 5 is complete (just missing writing to a new fasta file)&#10;evolution_rate3.py was a copy for my trials bas delw2ty kollo mwgood fl evolution_rate.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtask 5 is complete (just missing writing to a new fasta file)&#10;evolution_rate3.py was a copy for my trials bas delw2ty kollo mwgood fl evolution_rate.py" />
+    <MESSAGE value="adding spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding spacing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
@@ -606,21 +607,7 @@
     <entry file="file://$PROJECT_DIR$/python" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/README.rst" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa12516.48268/pico_galaxy-master/tools/align_back_trans/align_back_trans.py" />
-    <entry file="file://$PROJECT_DIR$/trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate - Copy.py" />
-    <entry file="file://$PROJECT_DIR$/trans Prot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prot trial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -663,7 +650,7 @@
     <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -688,10 +675,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/evolution_rate2_backup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_Human_ADAMTS6_orthologues_2.fa">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_Human_ADAMTS6_orthologues_2.phy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trans Prot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evolution_rate_backup2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="1275">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
