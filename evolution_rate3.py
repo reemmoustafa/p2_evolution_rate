@@ -31,6 +31,7 @@ def algprot_to_algdna(mus_alg_p, unalg_nuc_origf):
             unalg_nuc_seqs = list(SeqIO.parse(file, "fasta"))  # unalg_nuc_seqs vriable
             # list of seqrecords of unaligned neuclotide sequences
             p_alignment = AlignIO.read(algd_p_file, "fasta")  # variable for the aligned
+            #str_to_write += str((len(p_alignment)))
             # protein seuqnces
             # print(len(p_alignment))
             for unalg_nuc in range(len(unalg_nuc_seqs)):
@@ -144,12 +145,15 @@ fname_alg_nuc_seq = "Alg_NucSeq_" + fname  # variable for fasta file that
 prot_covert_dna = algprot_to_algdna(fname_prot_musc_out,fpath) #coverting protein
 #to dna through calling fuction prot_covert_dna and storing its output in
 # prot_covert_dna variable
-f = open(fname_alg_nuc_seq, 'w+') #creating fasta file to store the aligned dna sequences
-f.write(prot_covert_dna) #writing the aligned sequences to the fasta file
-f.close() # closing fasta file file
+no_of_species = prot_covert_dna.count(">")
+#for i in prot_covert_dna:
+
+#f = open(fname_alg_nuc_seq, 'w+') #creating fasta file to store the aligned dna sequences
+#f.write(prot_covert_dna) #writing the aligned sequences to the fasta file
+#f.close() # closing fasta file file
 
 # subtask 6 : convert fasta file to phylip file
+f_phylip = "Alg_NucSeq_" +fname[:-3]+'.phy'
+f = open(f_phylip, 'w+')
+f.write(str(no_of_species)+"      ")
 
-f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy' #variable to carry name of the phylip file
-count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-relaxed")#conversion
-# of fasta file into phylip file

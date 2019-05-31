@@ -41,11 +41,11 @@ def algprot_to_algdna(mus_alg_p, unalg_nuc_origf):
                 i = 0  # counter = 0 , reset will always happen when loop starts
                 alg_nuc_seq = ""  # alg_nuc_seq variable that will carry the aligned , set as empty
                 # string when the for loop starts neucleotide sequence
-                unalg_nuc_id = unalg_nuc_seqs[unalg_nuc].id
+                unalg_nuc_id = unalg_nuc_seqs[unalg_nuc].id[0:4]
                 unalg_nuc_seq = unalg_nuc_seqs[unalg_nuc].seq
                 for prot_index in range(len(p_alignment)):  # A nested for loop that
                     # will loop on the proteins contained in p_alignment variable.
-                    if p_alignment[prot_index].id == unalg_nuc_id:
+                    if p_alignment[prot_index].id[0:4] == unalg_nuc_id:
                         # if condition that will compare the protein id to the unaligned
                         # nuceleotide sequence id , if they are equal then the protein id
                         # and its sequence will be stored in two variables alg_protein_id
@@ -151,5 +151,5 @@ f.close() # closing fasta file file
 # subtask 6 : convert fasta file to phylip file
 
 f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy' #variable to carry name of the phylip file
-count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-relaxed")#conversion
+count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-sequential")#conversion
 # of fasta file into phylip file
