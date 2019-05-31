@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p2_evolution_rate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
     </list>
@@ -19,86 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding>
-                <element signature="e#472#481#0" expanded="true" />
-                <element signature="e#579#800#0" />
-                <element signature="e#857#4372#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evolution_rate3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
-              <folding>
-                <element signature="e#472#481#0" expanded="true" />
-                <element signature="e#651#872#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Phylo/PAML/codeml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1001">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evolution_rate2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="187" column="33" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
-              <folding>
-                <element signature="e#472#481#0" expanded="true" />
-                <element signature="e#685#906#0" />
-                <element signature="e#963#4488#0" />
-                <element signature="e#9445#10312#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PAML_results_final.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txt2phylip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2_tree.newick">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="-270">
+              <caret line="162" column="73" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -135,7 +59,7 @@
         <option value="mina-saleh" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -188,7 +112,7 @@
             <path>
               <item name="p2_evolution_rate" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2_evolution_rate" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="evolution_rate_lastBP.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -204,8 +128,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate" />
       <recent name="C:\Users\Mina Saleh\PycharmProjects\p2_evolution_rate" />
+      <recent name="E:\NU_Bio_diploma\CIT-656_Python\final_project\p2_evolution_rate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -697,7 +621,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.25520834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.27306548" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076807" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -829,13 +753,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alg_protSeq_Human_ADAMTS6_orthologues_2.fa" />
-    <entry file="file://$PROJECT_DIR$/test.FASTA">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.FASTA" />
     <entry file="file://$PROJECT_DIR$/Alg_NucSeq_Human_ADAMTS6_orthologues_2.fa" />
     <entry file="file://$PROJECT_DIR$/protSeq_project_2_input_SRSF1.fa">
       <provider selected="true" editor-type-id="text-editor" />
@@ -846,9 +764,7 @@
     <entry file="file://$PROJECT_DIR$/example.phy" />
     <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.fa.py" />
     <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.py" />
-    <entry file="file://$PROJECT_DIR$/test.phy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.phy" />
     <entry file="file://$PROJECT_DIR$/Alg_NucSeq_project_2_input_SRSF1.fa">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -875,13 +791,7 @@
     <entry file="file://$PROJECT_DIR$/project_2_input_SRSF1.fa">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_project_2_input_SRSF1.phy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_project_2_input_SRSF1.phy" />
     <entry file="file://$PROJECT_DIR$/txt2phylip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -889,20 +799,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paml/codeml.ctl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paml_Alg_NucSeq_PY_project_2_input_SRSF1..out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="158" selection-start-line="158" selection-end-line="158" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/paml/codeml.ctl" />
+    <entry file="file://$PROJECT_DIR$/paml_Alg_NucSeq_PY_project_2_input_SRSF1..out" />
     <entry file="file://$PROJECT_DIR$/PAML_results_final.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
@@ -941,20 +839,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Phylo/PAML/codeml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1001">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Phylo/PAML/codeml.py" />
+    <entry file="file://$PROJECT_DIR$/Alg_NucSeq_PY_project_2_input_SRSF1.phy" />
     <entry file="file://$PROJECT_DIR$/project2_tree.newick">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -962,15 +848,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/evolution_rate_lastBP.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#472#481#0" expanded="true" />
-            <element signature="e#579#800#0" />
-            <element signature="e#857#4372#0" />
-          </folding>
+        <state relative-caret-position="-270">
+          <caret line="162" column="73" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
         </state>
       </provider>
     </entry>
