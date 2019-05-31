@@ -14,7 +14,6 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Align.Applications import MuscleCommandline
 from Bio import AlignIO
-# from io import StringIO
 
 
 def make_prot_rec(nuc_rec):
@@ -57,7 +56,7 @@ while fpath_flag is False:
         fpath_flag = False  # fpath_flag is false if file path is incorrect
 
 # Sub-task 1: parse input file
-# codon_table = CodonTable.ambiguous_dna_by_id[1]
+
 with open(fpath) as file:
     # with as method for proper handling of large files regardless of the Operating system styling file:
     # a parameter that will be used as a handle
@@ -80,21 +79,17 @@ with open(fpath) as file:
 
 
 # subtask 4: Align the alg_protein sequences using MUSCLE program
-# fn_p_muscle = "Alg_"+fname_prot
+
 muscle_exe = input("Please enter the full path of muscle program:  ")
-# muscle_exe = "muscle3.8.31_i86win32.exe"
-# muscle_exe: variable containing the path of muscle program
 fname_prot_musc_in = fname_prot  # variable: input file for muscle
 fname_prot_musc_out = "Alg_" + fname_prot_musc_in  # variable: output file from muscle
 muscle_cline = MuscleCommandline(muscle_exe, input=fname_prot_musc_in, out=fname_prot_musc_out)
 # variable for muscle commandline
 print(muscle_cline)  # print statement of the commandline variable
 stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
-# align = AlignIO.read(StringIO(stdout), "fasta")
-# print(align)
-
 
 # subtask 5: converting protein back to dna (Protein back translation to DNA)
+
 str_to_write = ""  # string variable that will carry all converted nucleotide sequences
 f_phylip = "Alg_NucSeq_PY_" + fname[:-3] + '.phy'
 with open(fname_prot_musc_out) as algd_p_file:  # opening the aligned protein file
@@ -105,7 +100,7 @@ with open(fname_prot_musc_out) as algd_p_file:  # opening the aligned protein fi
         # list of seqrecords of unaligned neuclotide sequences
         p_alignment = AlignIO.read(algd_p_file, "fasta")  # variable for the aligned
         # protein seuqnces
-        # print(len(p_alignment))
+
         for unalg_nuc in range(len(unalg_nuc_seqs)):
             # for loop on the unalg_nuc_seqs, this for loop will be work in range
             # of the length of the aunlaigned nuc sequences , it will extract its id
@@ -140,8 +135,6 @@ with open(fname_prot_musc_out) as algd_p_file:  # opening the aligned protein fi
                             # unalg_nuc_seq in order to be 3 neucleotide bases
                             i = i + 3  # counter i will be incremented by 3 bases
                             alg_nuc_seq += codon
-                    # print(len(unalg_nuc_seq))#print(len(alg_protein_seq)) #print(len(alg_nuc_seq))
-                    # print(unalg_nuc_seq) #print(alg_protein_seq) #print(alg_nuc_seq)
 
                     str_to_write += '>' + unalg_nuc_id + "\n" + str(alg_nuc_seq) + "\n"
             f = open(fname_alg_nuc_seq, 'w+')
