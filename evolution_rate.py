@@ -93,9 +93,12 @@ stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 # print(align)
 
 #subtask 5: converting protein back to dna (Protein back translation to DNA)
+str_to_write = "" # string variable that will carry all converted nucleotide sequences
+f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy'
 with open (fname_prot_musc_out) as algd_p_file: #opening the aligned protein file
     with open(fpath) as file: #opening the unaligned neucelotide sequence file
-        fname_alg_nuc_seq = "Alg_NucSeq_" + fname
+        fname_alg_nuc_seq = "Alg_NucSeq_" + fname #variable for fasta file that
+        # will contained aligned sequences
         unalg_nuc_seqs = list(SeqIO.parse(file, "fasta")) #unalg_nuc_seqs vriable
         # list of seqrecords of unaligned neuclotide sequences
         p_alignment = AlignIO.read(algd_p_file, "fasta") #variable for the aligned
@@ -137,9 +140,10 @@ with open (fname_prot_musc_out) as algd_p_file: #opening the aligned protein fil
                             alg_nuc_seq += codon
                     #print(len(unalg_nuc_seq))#print(len(alg_protein_seq)) #print(len(alg_nuc_seq))
                     #print(unalg_nuc_seq) #print(alg_protein_seq) #print(alg_nuc_seq)
-                    print(unalg_nuc_id)
-                    print(alg_nuc_seq)
-                    f = open(fname_alg_nuc_seq,'a+')
-                    str_to_write = '>' + unalg_nuc_id + "\n" + str(alg_nuc_seq) + "\n"
-                    f.write(str_to_write)
-                    f.close()
+
+                    str_to_write += '>' + unalg_nuc_id + "\n" + str(alg_nuc_seq) + "\n"
+            f = open(fname_alg_nuc_seq, 'w+')
+            f.write(str_to_write)
+            f.close()
+#subtask 6 : convert fasta file to phylip file
+count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-relaxed")
