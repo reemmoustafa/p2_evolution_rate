@@ -4,7 +4,7 @@
 * The development repository for this tool is here:
       https://github.com/reemmoustafa/p2_evolution_rate.git
 * copy rights for: Reem Mostafa, Nehal Ghonim, Mina S. A. Saleh, Manar M. Rashad, Abeer Shalaby
-* Under supervision of: Dr. Rosina
+* Under supervision of: Dr. Rosina / Dr. Ahmed Ali
 * This algorithm is part of CIT-656:Programming for Bioinformatics Course (WINTER 2019)
 * Bioinformatics Diploma, Nile University, Cairo, Egypt
 * To run this script , please type python evolution_rate.py in terminal
