@@ -15,6 +15,7 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Align.Applications import MuscleCommandline
 from Bio import AlignIO
+from Bio.Phylo.PAML import codeml
 
 
 def make_prot_rec(nuc_rec):
@@ -152,4 +153,34 @@ f.close() # closing fasta file file
 
 f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy' #variable to carry name of the phylip file
 count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-sequential")#conversion
-# of fasta file into phylip file
+# of fasta file into sequential-phylip file
+
+#subtask 7 & 8 running paml codeml and output file generation
+from Bio.Phylo.PAML import codeml
+cml = codeml.Codeml()
+cml.alignment = f_phylip
+treepath_flag = False  # treepath_flag variable used for file path validation
+while treepath_flag is False:
+    # ask for file path as an input parameter from user
+    cml.tree = input(("To run paml codeml. Please enter the full path of tree file with .newick extension:  "))
+    try:
+        assert os.path.exists(cml.tree)
+        print('File ' + str(cml.tree) + ' was found. ')
+        if cml.tree.endswith('.newick'):
+            print('File extension is correct')
+            treepath_flag = True  # flag is true if user entered correct file path
+        else:
+            print('File extension is incorrect, Please try again with a correct file extension')
+            treepath_flag = False
+    except AssertionError as e:
+        print('You have entered the following file path: ' + str(
+            cml.tree) + '.' + ' This file does not exist.' + '\nPlease try again with correct file path')
+        treepath_flag = False  # fpath_flag is false if file path is incorrect
+cml.out_file = "paml_"+ f_phylip[:-3]+".out"
+cml.working_dir = input("Please enter working directory of paml: ")
+cml.set_options(CodonFreq=2, model=0, seqtype=1, NSsites='0', runmode=0, cleandata=0)
+results = cml.run()
+ns_sites = results.get("NSsites")
+m0 = ns_sites.get(0)
+m0_params = m0.get("parameters")
+print(m0_params.get("omega"))
