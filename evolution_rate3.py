@@ -140,20 +140,23 @@ stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 
 #subtask 5: converting protein back to dna (Protein back translation to DNA)
 
-fname_alg_nuc_seq = "Alg_NucSeq_" + fname  # variable for fasta file that
-# will contained aligned sequences
 prot_covert_dna = algprot_to_algdna(fname_prot_musc_out,fpath) #coverting protein
 #to dna through calling fuction prot_covert_dna and storing its output in
 # prot_covert_dna variable
-no_of_species = prot_covert_dna.count(">")
-#for i in prot_covert_dna:
+no_of_species = prot_covert_dna.count(">")#get number of species in file
+for line in prot_covert_dna: #for loop to calculate sequence length
+    if not line.startswith('>'):
+        seq_len = len(line)
+        break
 
-#f = open(fname_alg_nuc_seq, 'w+') #creating fasta file to store the aligned dna sequences
-#f.write(prot_covert_dna) #writing the aligned sequences to the fasta file
-#f.close() # closing fasta file file
-
-# subtask 6 : convert fasta file to phylip file
-f_phylip = "Alg_NucSeq_" +fname[:-3]+'.phy'
+f_phylip = "Alg_NucSeq_" +fname[:-3]+'.phy' #phylip file creation
 f = open(f_phylip, 'w+')
-f.write(str(no_of_species)+"      ")
+f.write(str(no_of_species)+"      "+str(seq_len)+'\n') #add phylip file header
+print(prot_covert_dna.count('\n'))
+for species.split('\n') in prot_covert_dna:
+    #if species.startswith('>'):
+        #species_name = species
+    print (species)
+
+f.close()
 
