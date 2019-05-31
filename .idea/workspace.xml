@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7956013-eb7f-47dd-a094-71dcb06d927c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evolution_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evolution_rate2.py" beforeDir="false" afterPath="$PROJECT_DIR$/evolution_rate2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evolution_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="186" column="50" lean-forward="true" selection-start-line="186" selection-start-column="50" selection-end-line="186" selection-end-column="50" />
+            <state relative-caret-position="152">
+              <caret line="185" column="40" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
               <folding>
                 <element signature="e#472#481#0" expanded="true" />
                 <element signature="e#579#800#0" />
@@ -671,12 +669,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559334169068</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Final script updates">
+      <created>1559335540964</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1559335540964</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Final script updates">
+      <created>1559335565131</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1559335565131</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.25520834" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25" />
@@ -730,7 +741,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding .idea to gitignore file" />
     <MESSAGE value="ask for input file from user and path validation" />
     <MESSAGE value="ask for input file from user and path validation along with file extension" />
     <MESSAGE value="subtask 1 : parse input file and subtask 2: complete CDS validation" />
@@ -755,7 +765,8 @@
     <MESSAGE value="edit in step ids produced for phylip sequential file" />
     <MESSAGE value="update tree file" />
     <MESSAGE value="update evolution_rate.py script with paml steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="update evolution_rate.py script with paml steps" />
+    <MESSAGE value="Final script updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final script updates" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Bio/Seq.py" />
@@ -945,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evolution_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="186" column="50" lean-forward="true" selection-start-line="186" selection-start-column="50" selection-end-line="186" selection-end-column="50" />
+        <state relative-caret-position="152">
+          <caret line="185" column="40" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
           <folding>
             <element signature="e#472#481#0" expanded="true" />
             <element signature="e#579#800#0" />
