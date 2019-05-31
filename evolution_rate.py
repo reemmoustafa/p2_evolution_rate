@@ -79,7 +79,8 @@ def algprot_to_algdna(mus_alg_p, unalg_nuc_origf):
 print(
     'Welcome to the "Determining the rate of evolution of alg_protein-coding sequences" script.'
     + '\nThe purpose of the program is to determine the rate of evolution of alg_protein coding sequences'
-      '\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.')
+      +'\nby calculating the dn/ds ratio of a certain gene among different species presented in a FASTA file.\n'
+      +'Please note that to run this file you will need to provide fasta file, newick tree file, muscle\nand working directory for paml ')
 print('*' * 100)
 
 # subtask 0: ask user for input fasta file
@@ -156,7 +157,6 @@ count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-sequential
 # of fasta file into sequential-phylip file
 
 #subtask 7 & 8 running paml codeml and output file generation
-from Bio.Phylo.PAML import codeml
 cml = codeml.Codeml()
 cml.alignment = f_phylip
 treepath_flag = False  # treepath_flag variable used for file path validation
