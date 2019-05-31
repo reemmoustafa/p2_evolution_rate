@@ -106,26 +106,46 @@ stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 
 ##subtask 5: converting protein back to dna
 
-with open (fname_prot_musc_out) as algd_p_file:
-    with open(fpath) as file:
-        unalg_nuc_seqs = list(SeqIO.parse(file, "fasta"))
-        p_alignment = AlignIO.read(algd_p_file, "fasta")
-        print(len(p_alignment))
+with open (fname_prot_musc_out) as algd_p_file: #opening the aligned protein file
+    with open(fpath) as file: #opening the unaligned neucelotide sequence file
+        unalg_nuc_seqs = list(SeqIO.parse(file, "fasta")) #unalg_nuc_seqs vriable
+        # list of seqrecords of unaligned neuclotide sequences
+        p_alignment = AlignIO.read(algd_p_file, "fasta") #variable for the aligned
+        #protein seuqnces
+        #print(len(p_alignment))
         for unalg_nuc in range(len(unalg_nuc_seqs)):
-            i = 0
-            alg_nuc_seq = ""
+            #for loop on the unalg_nuc_seqs, this for loop will be work in range
+            # of the length of the aunlaigned nuc sequences , it will extract its id
+            #and sequence in two variables unalg_nuc_id & unalg_nuc_seq. then it
+            # will contain nested for loop for the rest of program logic
+            i = 0 #counter = 0 , reset will always happen when loop starts
+            alg_nuc_seq = "" # alg_nuc_seq variable that will carry the aligned , set as empty
+            #string when the for loop starts neucleotide sequence
             unalg_nuc_id = unalg_nuc_seqs[unalg_nuc].id
             unalg_nuc_seq = unalg_nuc_seqs[unalg_nuc].seq
-            for prot_index in range(len(p_alignment)):
+            for prot_index in range(len(p_alignment)): #A nested for loop that
+                # will loop on the proteins contained in p_alignment variable.
                 if p_alignment[prot_index].id == unalg_nuc_id:
+                    # if condition that will compare the protein id to the unaligned
+                    # nuceleotide sequence id , if they are equal then the protein id
+                    # and its sequence will be stored in two variables alg_protein_id
+                    # and alg_protein_seq. Also a for loop will be executed for every
+                    # amino acid the protein sequence and convert it the corresponding
+                    # triple codon
                     alg_protein_id = p_alignment[prot_index].id
                     alg_protein_seq = p_alignment[prot_index].seq
                     for aa in alg_protein_seq:
+                    #for loop on amino acids present in a protein sequence for
+                    # prtoein back-translation into dna, where a gap - will translated
+                    #into --- and an aminoacid will be translated into
+                    # triple neucelotides inside the alg_nuc_seq that will carry the converted
+                    #aligned neucloetide sequence.
                         if aa == '-':
                             alg_nuc_seq += '---'
                         else:
-                            codon = unalg_nuc_seq[i:i + 3]
-                            i = i + 3
+                            codon = unalg_nuc_seq[i:i + 3] #the codon will be 3 positions the the
+                            #unalg_nuc_seq in order to be 3 neucleotide bases
+                            i = i + 3 #counter i will be incremented by 3 bases
                             alg_nuc_seq += codon
                     print(unalg_nuc_id)
                     print(len(unalg_nuc_seq))
