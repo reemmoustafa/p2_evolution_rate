@@ -69,7 +69,7 @@ with open(fpath) as file:  # with as method for proper handling of large files
     print("Validating the input file for the presence of complete coding sequences only")
     for record in SeqIO.parse(file, "fasta"):  # for loop to parse the input file
         # record: variable of type SeqRecord object
-        unalg_nuc_seq = gene_seq = record.seq  # gene_seq: is a variable of type seq object
+        gene_seq = record.seq  # gene_seq: is a variable of type seq object
         try:
             gene_seq.translate(cds=True)
         # parameter cds - Boolean, indicates this is a complete CDS.
@@ -107,20 +107,32 @@ stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 # print(align)
 
 
-for p_record in SeqIO.parse(fname_prot_musc_out, "fasta"):
-    alg_protein = p_record.seq
+with open(fpath) as file:
+    fname_alg_nuc = "alg_nuc_seq_" + fname
+    for p_record in SeqIO.parse(fname_prot_musc_out, "fasta"):
+        alg_protein = p_record.seq
+        # fname_alg_nuc.write(">" + p_record.id + "\n")
 
-alg_nuc_seq: str = ''
-print(alg_nuc_seq)
-i = 0
+        alg_nuc_seq: str = ''
+        print(alg_nuc_seq)
+        i = 0
+        for aa in alg_protein:
+            if aa == '-':
+                alg_nuc_seq += '---'
+            else:
+                codon = gene_seq[i:i + 3]
+                i = i + 3
+                alg_nuc_seq += codon
+        print(alg_nuc_seq)
+        print(len(alg_nuc_seq))
+        SeqIO.write(str(alg_nuc_seq), fname_alg_nuc, "fasta")
 
-for aa in alg_protein:
-    if aa == '-':
-        alg_nuc_seq += '---'
-    else:
-        codon = unalg_nuc_seq[i:i + 3]
-        i = i+3
-        alg_nuc_seq += codon
 
-print(alg_nuc_seq)
-print(len(alg_nuc_seq))
+
+
+
+
+ # fname_prot: variable of the alg_protein file name (translation step output)
+    # translate neucleotide seqrecords to alg_protein seqrecords and store it in an output file
+
+

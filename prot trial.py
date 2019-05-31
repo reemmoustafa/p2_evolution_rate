@@ -25,3 +25,10 @@ for aa in alg_protein:
 
 print(alg_nuc_seq)
 print(len(alg_nuc_seq))
+
+fname = 1
+with open(fpath) as file:
+    fname_alg_nuc = "alg_nuc_seq_" + fname  # fname_prot: variable of the alg_protein file name (translation step output)
+    # translate neucleotide seqrecords to alg_protein seqrecords and store it in an output file
+
+    SeqIO.write(str(alg_nuc_seq), fname_alg_nuc, "fasta")

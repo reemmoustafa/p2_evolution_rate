@@ -104,7 +104,7 @@ stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
 # align = AlignIO.read(StringIO(stdout), "fasta")
 # print(align)
 
-#subtask 5: converting protein back to dna
+# subtask 5: converting protein back to dna
 
 with open (fname_prot_musc_out) as algd_p_file:
     with open(fpath) as file:

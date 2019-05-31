@@ -58,9 +58,9 @@ while fpath_flag is False:
 
 # Sub-task 1: parse input file
 # codon_table = CodonTable.ambiguous_dna_by_id[1]
-with open(fpath) as file:  # with as method for proper handling of large files
-    # regardless of the Operating system styling
-    # file: a parameter that will be used as a handle
+with open(fpath) as file:
+    # with as method for proper handling of large files regardless of the Operating system styling file:
+    # a parameter that will be used as a handle
     # subtask 2 + 3: validation of coding sequences only.
     # then Convert the coding sequences to alg_protein sequences by translation
     try:
@@ -70,8 +70,9 @@ with open(fpath) as file:  # with as method for proper handling of large files
         proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
         SeqIO.write(proteins, fname_prot, "fasta")
     except Exception as cds_error:
-        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)+'\n\t'
-                + str(gene_seq))  # print of sequence id + exact error + coding sequence
+
+        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)
+              + '\n\t' + str(gene_seq))  # print of sequence id + exact error + coding sequence
         print('\tUnfortunately, The Program will terminate now.')  # exit message for the user
         exit()  # program will crash and exit as required
     print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only."
@@ -111,27 +112,27 @@ with open(fname_prot_musc_out) as algd_p_file:  # opening the aligned protein fi
             # and sequence in two variables unalg_nuc_id & unalg_nuc_seq. then it
             # will contain nested for loop for the rest of program logic
             i = 0  # counter = 0 , reset will always happen when loop starts
-            alg_nuc_seq = ""  # alg_nuc_seq variable that will carry the aligned , set as empty
+            alg_nuc_seq = ""
+            # alg_nuc_seq variable that will carry the aligned , set as empty
             # string when the for loop starts neucleotide sequence
             unalg_nuc_id = unalg_nuc_seqs[unalg_nuc].id
             unalg_nuc_seq = unalg_nuc_seqs[unalg_nuc].seq
             for prot_index in range(len(p_alignment)):  # A nested for loop that
                 # will loop on the proteins contained in p_alignment variable.
                 if p_alignment[prot_index].id == unalg_nuc_id:
-                    # if condition that will compare the protein id to the unaligned
-                    # nuceleotide sequence id , if they are equal then the protein id
-                    # and its sequence will be stored in two variables alg_protein_id
-                    # and alg_protein_seq. Also a for loop will be executed for every
-                    # amino acid the protein sequence and convert it the corresponding
-                    # triple codon
+                    # if condition that will compare the protein id to the unaligned nuceleotide sequence id
+                    # if they are equal then the protein id and its sequence will be stored in two variables
+                    # alg_protein_id and alg_protein_seq. Also a for loop will be executed for every amino acid
+                    # the protein sequence and convert it the corresponding triple codon
+
                     alg_protein_id = p_alignment[prot_index].id
                     alg_protein_seq = p_alignment[prot_index].seq
                     for aa in alg_protein_seq:
                         # for loop on amino acids present in a protein sequence for
-                        # prtoein back-translation into dna, where a gap - will translated
-                        # into --- and an aminoacid will be translated into
-                        # triple neucelotides inside the alg_nuc_seq that will carry the converted
-                        # aligned neucloetide sequence.
+                        # prtoein back-translation into dna, where a gap - will translated into ---
+                        # and an aminoacid will be translated into triple neucelotides
+                        # inside the alg_nuc_seq that will carry the converted aligned neucloetide sequence.
+
                         if aa == '-':
                             alg_nuc_seq += '---'
                         else:
