@@ -79,3 +79,30 @@ print(muscle_cline) #print statement of the commandline variable
 stdout, stderr = muscle_cline() #stdout, stderr runs muscle command variable
 #align = AlignIO.read(StringIO(stdout), "fasta")
 #print(align)
+-----------------------------------------------------------------------------
+with open (fname_prot_musc_out) as algd_p_file:
+    with open(fpath) as file:
+        unalg_nuc_seqs = SeqIO.parse(file, "fasta")
+        p_alignment = AlignIO.read(algd_p_file, "fasta")
+        for alg_protein in p_alignment:
+            # print(alg_protein.id +" : "+ alg_protein.seq)
+            alg_protein_id = alg_protein.id
+            alg_protein_seq = alg_protein.seq
+            print(alg_protein_id)
+            for unalg_nuc_seq in unalg_nuc_seqs:
+                unalg_nuc_seq_id = unalg_nuc_seq.id
+                unalg_nuc_seq_seq = unalg_nuc_seq.seq
+            if alg_protein_id == unalg_nuc_seq_id:
+                print('yes')
+                for aa in alg_protein_seq:
+                    if aa == '-':
+                        alg_nuc_seq += '---'
+                    else:
+                        codon = unalg_nuc_seq[base_index:base_index + 3]
+                        base_index = base_index + 3
+                        alg_nuc_seq += codon
+                    #print(alg_nuc_seq)
+                    #print(len(unalg_nuc_seq))
+                    #print(len(alg_protein))
+                    #print(len(alg_nuc_seq))
+
