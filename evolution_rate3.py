@@ -7,6 +7,7 @@
 * Under supervision of: Dr. Rosina
 * This algorithm is part of CIT-656:Programming for Bioinformatics Course (WINTER 2019)
 * Bioinformatics Diploma, Nile University, Cairo, Egypt
+* To run this script , please type python evolution_rate.py in terminal
 """
 
 import os
@@ -14,8 +15,6 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Align.Applications import MuscleCommandline
 from Bio import AlignIO
-# from io import StringIO
-
 
 
 def make_prot_rec(nuc_rec):
@@ -75,7 +74,6 @@ def algprot_to_algdna(mus_alg_p, unalg_nuc_origf):
             return (str_to_write)
 
 
-
 # A welcome message that briefly explains the aim of the script
 print(
     'Welcome to the "Determining the rate of evolution of alg_protein-coding sequences" script.'
@@ -109,12 +107,12 @@ while fpath_flag is False:
         fpath_flag = False  # fpath_flag is false if file path is incorrect
 
 # Sub-task 1: parse input file
-# codon_table = CodonTable.ambiguous_dna_by_id[1]
-with open(fpath) as file:  # with as method for proper handling of large files
-    # regardless of the Operating system styling
-    # file: a parameter that will be used as a handle
 
-# subtask 2 + 3: validation of coding sequences only. then Convert the coding sequences to alg_protein sequences by translation
+with open(fpath) as file:
+    # with as method for proper handling of large files regardless of the Operating system styling file:
+    # a parameter that will be used as a handle
+    # subtask 2 + 3: A- validation of coding sequences only.
+    #                B- Convert the coding sequences to alg_protein sequences by translation
     try:
         unalg_nuc_seqs = SeqIO.parse(file, "fasta")
         fname_prot = "protSeq_" + fname  # fname_prot: variable of the alg_protein file name (translation step output)
@@ -122,36 +120,34 @@ with open(fpath) as file:  # with as method for proper handling of large files
         proteins = (make_prot_rec(nuc_rec) for nuc_rec in SeqIO.parse(file, "fasta"))
         SeqIO.write(proteins, fname_prot, "fasta")
     except Exception as cds_error:
-        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)+'\n\t'
-                + str(gene_seq))  # print of sequence id + exact error + coding sequence
+
+        print('Error in Sequence id '+str(record.id)+':\n\t'+str(cds_error)
+              + '\n\t' + str(gene_seq))  # print of sequence id + exact error + coding sequence
         print('\tUnfortunately, The Program will terminate now.')  # exit message for the user
         exit()  # program will crash and exit as required
-    print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only.\nFile is accepted and translated to proteins")
-
+    print("All the sequences successfully passed filters for ORF integrity.File contains complete CDS only."
+          "\nFile is accepted and translated to proteins")
 
 # subtask 4: Align the alg_protein sequences using MUSCLE program
-# fn_p_muscle = "Alg_"+fname_prot
+
 muscle_exe = input("Please enter the full path of muscle program:  ")
-#muscle_exe = "muscle3.8.31_i86win32.exe"
-# muscle_exe: variable containing the path of muscle program
 fname_prot_musc_in = fname_prot  # variable: input file for muscle
 fname_prot_musc_out = "Alg_" + fname_prot_musc_in  # variable: output file from muscle
 muscle_cline = MuscleCommandline(muscle_exe, input=fname_prot_musc_in, out=fname_prot_musc_out)
 # variable for muscle commandline
 print(muscle_cline)  # print statement of the commandline variable
 stdout, stderr = muscle_cline()  # stdout, stderr runs muscle command variable
-# align = AlignIO.read(StringIO(stdout), "fasta")
-# print(align)
 
 #subtask 5: converting protein back to dna (Protein back translation to DNA)
 #str_to_write = "" # string variable that will carry all converted nucleotide sequences
 fname_alg_nuc_seq = "Alg_NucSeq_" + fname  # variable for fasta file that
 # will contained aligned sequences
-reem = algprot_to_algdna(fname_prot_musc_out,fpath)
+prot_covert_dna = algprot_to_algdna(fname_prot_musc_out,fpath)
 f = open(fname_alg_nuc_seq, 'w+')
-f.write(reem)
+f.write(prot_covert_dna)
 f.close()
 f_phylip = "Alg_NucSeq_PY_" +fname[:-3]+'.phy'
 
-#subtask 6 : convert fasta file to phylip file
+
+# subtask 6 : convert fasta file to phylip file
 count = AlignIO.convert(fname_alg_nuc_seq, "fasta", f_phylip, "phylip-relaxed")
